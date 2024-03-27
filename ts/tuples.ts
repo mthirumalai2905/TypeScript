@@ -14,4 +14,4 @@ const displayPersonInfo: (person: PersonInfo) => void = (person:PersonInfo): voi
 
 const person1:PersonInfo = ['thir', 29, true];
 const person2:PersonInfo = ['umala', 92, false];
-displayPersonInfo(person1); 
+displayPersonInfo(person1);             

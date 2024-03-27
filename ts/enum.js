@@ -9,3 +9,8 @@ const user1 = {
     password: "sdf",
     role: Roles.user
 };
+const isAdmin = (user1) => {
+    const { name, role } = user1;
+    return role === "admin" ? `${name} is allow to edit the website` : `${name} is not allow to edit the website`;
+};
+console.log(isAdmin(user1));
