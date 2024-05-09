@@ -1,4 +1,4 @@
-"use strict";
+"use strict";// Transpiled hence used this respective keyword at the top of the code
 // //a) Using square brackets
 const fruits = ["mango", "banana", "orange", "pineapple", "mastani"];
 // const fruitss:string[] = fruits.filter((fruit) => fruit.toLowerCase().startsWith('m'))
